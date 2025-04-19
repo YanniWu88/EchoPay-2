@@ -17,7 +17,7 @@ By integrating advanced AI voice recognition with Polkadot’s blockchain infras
 *   **Account Selection:** Lists accounts from the connected extension and allows selection.
 *   **Balance Display:** Shows the selected account's balance by querying the Westend testnet using `@polkadot/api`.
 *   **Voice Input:** Uses the browser's Web Speech API to capture voice commands.
-*   **Manual Processing Trigger:** Requires clicking a button to process the recognized voice command (currently sends to a mock backend).
+*   **Manual Processing Trigger:** Requires clicking a button to process the recognized voice command (currently sends to estend testnet).
 *   **Mock Backend:** A simple Node.js/Express server that simulates receiving and acknowledging commands.
 *   **Contact List:** Displays a static, hardcoded list of contacts in a sidebar.
 *   **Disconnect:** Allows disconnecting the wallet within the application's state.
