@@ -2,13 +2,11 @@
 
 EchoPay is an innovative payment platform concept enabling users to conduct secure, cross-chain transactions through voice commands. This repository contains the initial proof-of-concept implementation focusing on the frontend interface, wallet connection, and voice input simulation.
 
-Demo: https://www.youtube.com/watch?v=lrFvO2qnxU0
+🌟Demo: https://www.youtube.com/watch?v=lrFvO2qnxU0
 
 ## Overview (Vision)
 
-By integrating advanced AI voice recognition with Polkadot’s blockchain infrastructure, EchoPay aims to eliminate traditional payment friction while prioritizing accessibility, security, and interoperability. The ultimate goal is to allow users to execute transactions via natural language (e.g., “Pay 50 DOT to Alice on Ethereum”).
-
-*(Note: The AI/ML layer and actual blockchain transaction signing/cross-chain functionality are **not** implemented in this current PoC).*
+By integrating advanced AI voice recognition with Polkadot’s blockchain infrastructure, EchoPay aims to eliminate traditional payment friction while prioritizing accessibility, security, and interoperability. The ultimate goal is to allow users to execute transactions via natural language (e.g., “Pay 50 DOT to Alice on Polkadot”).
 
 ## Features (Current Implementation)
 
@@ -19,7 +17,7 @@ By integrating advanced AI voice recognition with Polkadot’s blockchain infras
 *   **Voice Input:** Uses the browser's Web Speech API to capture voice commands.
 *   **Manual Processing Trigger:** Requires clicking a button to process the recognized voice command (currently sends to westend testnet).
 *   **Mock Backend:** A simple Node.js/Express server that simulates receiving and acknowledging commands.
-*   **Contact List:** Displays a static, hardcoded list of contacts in a sidebar, test personal 
+*   **Contact List:** Displays a static, hardcoded list of contacts in a sidebar, testing
 *   **Disconnect:** Allows disconnecting the wallet within the application's state.
 
 ## Tech Stack
@@ -30,16 +28,34 @@ By integrating advanced AI voice recognition with Polkadot’s blockchain infras
 *   **Mock Backend:** Node.js, Express, CORS
 
 
-Technical consideration regarding how smart contract work on polkadot
+🌟Technical consideration regarding how smart contract work on polkadot
 ![Technical consideration regarding how smart contract work on polkadot
 ](docs/Screenshot%202025-04-19%20174748.png)
 
-Smart Contract Plan (ink!)
+🌟Smart Contract Plan (ink!)
 ![Smart Contract Plan (ink!)](docs/Screenshot%202025-04-19%20175055.png)
 
-Summary of Workflow:
+🌟Summary of Workflow:
 ![Summary of Workflow:](docs/Screenshot%202025-04-19%20175150.png)
 
+
+🔄 Roadmap
+ **Version 1 
+EchoPay is a voice-activated Ethereum transaction application that interacts with the Moonbase Alpha network (a test network for the Moonbeam blockchain). It allows users to send transactions and check balances using voice commands.
+ **Version 2 19 April 20/04/25
+Rebuild has moved to Polkadot and now interacts with Polkadot wallets like SubWallet.
+* Colour Scheme Updates:
+* GUI interface separated from CLI
+* Link to SubWallet / Activation
+* Animation added for loading
+* Improved layout
+* Enhanced AI for voice input
+* Dedicated status message area created
+* Responsive layout with column stacking
+* Now reads balance from wallet
+* Signing out of the wallet from Echo Pay no longer signs you out of SubWallet
+* Allows selection of multiple address in a wallets
+* Migrated off Moonbase network
 
 ## Project Structure
 
@@ -116,7 +132,7 @@ Summary of Workflow:
 
 1.  Click "Connect Wallet" and approve the connection request in your browser extension.
 2.  Select an account from the dropdown (balance from Westend should appear).
-3.  Click "Start Listening", grant microphone permission if requested, and speak a command (e.g., "Pay 1 WND to Bob").
+3.  Click "Start Listening", grant microphone permission if requested, and speak a command (e.g., "Pay 1 dot to Bob").
 4.  Click "Process Command (Mock)" to send the recognized text to the mock backend.
 5.  Observe the status updates.
 6.  Use the "Disconnect Wallet" button to clear the app's connection state.
@@ -135,16 +151,3 @@ This is a proof-of-concept demonstrating the basic UI flow and integration point
 *   **Error Handling:** More robust error handling and user feedback.
 *   **UI/UX Refinements:** Improve the overall user experience.
 
-UPDATE:
-*  Colour scheme
-*  GUI interefe from CLI
-*  Link to subWallet / Acitivation 
-*  Animation for loading
-*  Better Layout
-*  Better AI for voice input
-*  Create dedicated status message area
-*  Responsive layout (stacking columns)
-*  Can now read the balance from wallet 
-*  By signing out of wallet from echo pay doesn't sign up or lock you out of subwallet
-*  Let you select multiple wallet
-*  Moved off moonbase network
