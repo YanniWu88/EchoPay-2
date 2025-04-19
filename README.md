@@ -59,7 +59,7 @@ Version 2 19 April 2025
 Frontend Application (dApp)
 * Voice Capture: Uses the Web Speech API to record voice commands.
 * Transcription: Sends audio to a service (e.g., AWS Transcribe) for text conversion.
-* Instruction Parsing: Extracts payment details (e.g., "Pay 5 DOT to 1ABC...").
+* Instruction Parsing: Extracts payment details (e.g., "Pay 5 DOT to Alice").
 * Transaction Construction: Builds a payload with recipient/amount using @polkadot/api.
 ```
 const transfer = api.tx.balances.transferKeepAlive(recipientAddress, amount);
