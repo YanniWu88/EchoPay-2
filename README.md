@@ -11,7 +11,7 @@ By integrating advanced AI voice recognition with Polkadot’s blockchain infras
 ## How it work
 ![How it Work Now](docs/Screenshot%202025-04-19%20225750.png)
 
-The smart contract itself cannot directly initiate a native DOT transfer from the user's account. The actual DOT transfer will be initiated by the user through their wallet (SubWallet), triggered by your frontend application after the voice command is processed.
+The smart contract itself cannot directly initiate a native DOT transfer from the user's account. The actual DOT transfer will be initiated by the user through their wallet (SubWallet, Talisman), triggered by your frontend application after the voice command is processed.
 The smart contract's primary role will be to record the details of these payments after they happen (or are initiated).
 
 ## Features (Current Implementation)
