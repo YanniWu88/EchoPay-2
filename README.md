@@ -224,7 +224,7 @@ This is a proof-of-concept demonstrating the basic UI flow and integration point
 
 ## Know issues
 We cannot control your wallet extension directly or force it to log out or revoke permissions. This is a security feature to protect your wallet.
-It is not a secure payment method to rely solely on voice; hence, the wallet will prompt for a password to enhance security — unless we use voice recognition, two-step verification, or multi-factor authentication (MFA).
+It is not a secure payment method to rely solely on voice; hence, the wallet will prompt for a password to enhance security — unless we use voice recognition, two-step verification, or multi-factor authentication (MFA), Polkadot did mention Polkadot's smart accounts for voice-based recovery hmmm.
 The primary role of smart contracts will be to record the details of these payments after they occur (or are initiated).
 
 
