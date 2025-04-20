@@ -60,6 +60,7 @@ Version 2 19 April 2025
 *  Signing out of the wallet from Echo Pay no longer signs you out of SubWallet
 *  Allows selection of multiple wallets
 *  Migrated off Moonbase network
+*  Storing additional meta data + geolocation
 
 ## Tech Stack
 
