@@ -35,7 +35,7 @@ Even though the transaction is processed on Polkadot via the user’s wallet, re
 
 We could also log additional information, such as location recording, geotagging, and a link to IPFS (InterPlanetary File System).
 
-![Extended Data Section](Screenshot%202025-04-20%20060607.png)
+![Extended Data Section](docs/Screenshot%202025-04-20%20060607.png)
 
 
 ## ROADMAP
