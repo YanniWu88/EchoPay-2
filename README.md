@@ -37,6 +37,8 @@ We could also log additional information, such as location recording, geotagging
 
 ![Extended Data Section](docs/Screenshot%202025-04-20%20060607.png)
 
+A use case would be making a purchase with your voice at Argos, paid with crypto, recording the payment along with a picture of the kettle's serial number stored on IPFS, geotagging the location, recording the time, and showing you when your warranty expires—all in one transaction.
+
 
 ## ROADMAP
 Version 1 Aug 2024
