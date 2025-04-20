@@ -45,7 +45,7 @@ A use case would be making a purchase with your voice at Argos, paid with crypto
 ## ROADMAP
 Version 1 Aug 2024
 
-* EchoPay is a voice-activated Ethereum transaction application that interacts with the Moonbase Alpha network (a test network for the Moonbeam blockchain). It allows users to send transactions and check balances using voice commands.
+* EchoPay is a voice-activated Ethereum transaction application that interacts with the Moonbase Alpha network (a test network for the Moonbeam blockchain). It allows users to send transactions using voice commands.
 
 Version 2 19 April 2025
 *  Colour Scheme Updates:
