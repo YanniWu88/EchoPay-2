@@ -91,26 +91,27 @@ Why the Smart Contract Can't Move DOT Directly
 Smart Contracts Follow Rules
 * Smart contracts on Polkadot are like vending machines: they only do what they're programmed to do after you initiate an action.
 * They can’t “reach into” your wallet – you must start the process.
-* What the Smart Contract Does Do
+  
+What the Smart Contract Does Do
 * Records the Transaction
 * After you approve the DOT transfer via SubWallet, the smart contract logs:
 
-text
+
 ```
-* "User [Your Address] sent 5 DOT to [Recipient] at [Time]."
+ "User [Your Address] sent 5 DOT to [Recipient] at [Time]."
 ```
-* This creates a permanent, tamper-proof record on the blockchain.
+This creates a permanent, tamper-proof record on the blockchain.
 
 Checks for Errors
 It can verify if the transfer followed rules (e.g., "Was the recipient address valid?").
 
 Example Flow:
-1.You say: “Send 5 DOT to Alice.”
-2.Voice app converts this to text and prepares a transaction.
-3.SubWallet pops up: “Approve sending 5 DOT?” ✅
-4.You click Approve – DOT moves from your wallet to Alice’s.
-5.Smart contract adds: ✅ “Payment confirmed!” to the blockchain.
-This keeps you in control while using the smart contract as a secure receipt tracker 🔐.
+* 1. You say: “Send 5 DOT to Alice.”
+* 2. Voice app converts this to text and prepares a transaction.
+* 3. SubWallet pops up: “Approve sending 5 DOT?” ✅
+* 4. You click Approve – DOT moves from your wallet to Alice’s.
+* 5. Smart contract adds: ✅ “Payment confirmed!” to the blockchain.
+* This keeps you in control while using the smart contract as a secure receipt tracker 🔐.
 
 ## Summary of Workflow:
 ![Summary of Workflow:](docs/Screenshot%202025-04-19%20175150.png)
