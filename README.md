@@ -211,9 +211,10 @@ This is a proof-of-concept demonstrating the basic UI flow and integration point
 *   **UI/UX Refinements:** Improve the overall user experience.
 *   
 
-Know issues
+## Know issues
 We cannot control your wallet extension directly or force it to log out or revoke permissions. This is a security feature to protect your wallet.
-its not secure payment method just having voice, hence the wallet will ask for the password, for us to make it more secure  unless we use voice recongie or have two-step verification or multi-factor authentication (MFA)
-Are Smart contract's primary role will be to record the details of these payments after they happen (or are initiated).
+It is not a secure payment method to rely solely on voice; hence, the wallet will prompt for a password to enhance security — unless we use voice recognition, two-step verification, or multi-factor authentication (MFA).
+The primary role of smart contracts will be to record the details of these payments after they occur (or are initiated).
+
 
 
