@@ -26,6 +26,13 @@ The smart contract's primary role will be to record the details of these payment
 *   **Contact List:** Displays a static, hardcoded list of contacts in a sidebar. testing reason hard coded for now
 *   **Disconnect:** Allows disconnecting the wallet within the application's state.
 
+
+## Why Record the Transaction Afterwards?
+![Why Record the Transaction Afterwards?](docs/Screenshot%202025-04-20%20011229.png)
+
+##  Why Not Just Use the Native Transfer?
+Even though the transaction is processed on Polkadot via the user’s wallet, recording it in a smart contract provides an immutable, auditable record that can be referenced for receipts, compliance, transparency, and additional business logic. This dual-step approach is a common pattern for decentralized applications where user-initiated actions need to be tracked or verified independently of the native asset transfer
+
 ## ROADMAP
 Version 1 Aug 2024
 
