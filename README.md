@@ -202,3 +202,11 @@ This is a proof-of-concept demonstrating the basic UI flow and integration point
 *   **Dynamic Contact List:** Fetch contacts from on-chain storage, user settings, or other sources.
 *   **Error Handling:** More robust error handling and user feedback.
 *   **UI/UX Refinements:** Improve the overall user experience.
+*   
+
+Know issues
+We cannot control your wallet extension directly or force it to log out or revoke permissions. This is a security feature to protect your wallet.
+its not secure payment method just having voice, hence the wallet will ask for the password, for us to make it more secure  unless we use voice recongie or have two-step verification or multi-factor authentication (MFA)
+Are Smart contract's primary role will be to record the details of these payments after they happen (or are initiated).
+
+
